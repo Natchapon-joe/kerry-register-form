@@ -1,0 +1,160 @@
+#root{
+background: linear-gradient(to bottom,#F58D50,#F58D50) no-repeat;
+background-size: calc(100%) calc(50%);
+background-size: 50% 100%
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+form{
+    background-color: white;
+    width: 750px;
+    height: 820px;
+    padding: 0px 60px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    
+}
+.ui-rectangle{
+
+    background-color: white;
+    width: 750px;
+    height: 820px;
+    padding: 0px 60px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+  
+}
+
+
+
+.userName{
+  font-style: normal;
+  font-size: 58px;
+  font-weight: 700;
+  margin-top: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+button{
+
+  padding: 14px 32px;
+  gap: 0px;
+  border: none;
+  border-radius: 4px;
+  /* position: absolute; */
+  color: white;
+  /* Brand Primary */
+  background: #F37024;
+}
+
+p{
+  font-size: 14px;
+  line-height: 40px;
+  text-align: left;
+}
+a{
+  color: #8D8D8D;
+}
+a.ui-a{
+  text-align: left;
+  font-size: 14px;
+  color: #F27023;
+}
+img{
+  padding: 45px 5px;
+}
+
+img.logo{
+  position: absolute;
+  top: -30px;
+  left: 16px;
+  font-size: 18px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+a.color{
+  color: white;
+}
+
+.ui-grid{
+  flex-direction: row;
+
+  display: flex
+}
+
+.ui-welcome{
+  font-size: 24px;
+  padding: 44px;
+  color:black;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  
+}
+.ui-h2{
+  color: #F27023;
+}
+div.field{
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+div.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: auto;
+}
+.SignUpForm-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px
+}
+.SignUpForm-label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+}
+.SignUpForm-start-icon {
+  position: absolute;
+  padding: auto;
+  padding-left: 12px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.SignUpForm-end-icon {
+  position: absolute;
+  margin-top: 45px;
+  align-items: center; 
+  margin-left: 400px;
+  height: 48px
+  
+}
+input{
+  padding-left: 40px;
+}

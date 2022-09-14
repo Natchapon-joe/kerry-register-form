@@ -1,0 +1,96 @@
+@font-face {
+  font-family: Sukhumvit Set;
+  src: url(../assets/fonts/SukhumvitSet-Thin.ttf);
+}
+*{
+  font-family: Sukhumvit Set;
+}
+.formInput{
+  display: flex;
+  flex-direction: column;
+  /* width: 280px; */
+}
+
+input{
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+h1{
+  position: static;
+  font-size: 58px;
+  line-height: 0px;
+  margin-left: 40px;
+  
+}
+
+
+p{
+  font-size: 14px;
+  white-space: nowrap;
+  color: #8D8D8D;
+  margin-top: 40px;
+  margin-left: 100px;
+  
+}
+
+span{
+  font-size: 12px;
+  padding: 0px;
+  color: red;
+  display: none;
+}
+
+input:invalid[focused="true"]{
+  border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ span{
+  display: block;
+}
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.ui-input{
+  margin-top: 40px;
+}
+.ui-label{
+  font-weight: 700;
+  font-size: 12px;
+  color: #262626;
+}
+div.buttonback{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 80px;
+}
+div.buttonback button a {
+  color: white;
+}
+.center{
+  display: flex;
+  font-size: 24px;
+  margin-top: 0px;
+  justify-content: center;
+  /* margin-left: 29%; */
+  flex-direction: row;
+}
